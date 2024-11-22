@@ -8,7 +8,7 @@ from google.cloud import storage
 import os
 
 # Google Cloud credentials and project details
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '<service key json location>/service-key.json'
+#os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '<service key json location>/service-key.json'
 
 project_id = "your-project-id"
 topic_id = "my_fraud_detection-topic"
